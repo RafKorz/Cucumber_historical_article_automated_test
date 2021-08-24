@@ -28,7 +28,7 @@ public class Steps {
     @Given("a user in http://wikipedia.pl")
     public void userOnPage()
     {
-        driver.navigate().to("http://wikipedia.pl");
+        driver.get("http://wikipedia.pl");
     }
 
     @When("the user types \"Roczniki czyli kroniki sławnego Królestwa Polskiego\" in input search")
